@@ -79,18 +79,8 @@ function StatItem({ number, label }) {
   );
 }
 
-/* ---------------- APP ROUTER ---------------- */
-
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/members" element={<Members />} />
-        <Route path="/events" element={<Events />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Home />;
 }
 
 export default App;
